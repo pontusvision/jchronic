@@ -7,11 +7,11 @@
         <version>7</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.rubiconproject.oss</groupId>
-    <artifactId>jchronic</artifactId>
+    <groupId>com.pontusvision</groupId>
+    <artifactId>pontus-jchronic</artifactId>
     <packaging>jar</packaging>
-    <version>0.2.9-SNAPSHOT</version>
-    <name>jchronic</name>
+    <version>100.2.9</version>
+    <name>pontus-jchronic</name>
     <description>Natural language date parsing in Java, ported directly from Ruby's chronic</description>
     <url>http://github.com/samtingleff/jchronic</url>
     <licenses>

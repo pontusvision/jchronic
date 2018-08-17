@@ -1,7 +1,7 @@
-import com.mdimension.jchronic.Chronic;
-import com.mdimension.jchronic.Options;
-import com.mdimension.jchronic.tags.Pointer;
-import com.mdimension.jchronic.utils.Span;
+import com.pontusvision.jchronic.Chronic;
+import com.pontusvision.jchronic.Options;
+import com.pontusvision.jchronic.tags.Pointer;
+import com.pontusvision.jchronic.utils.Span;
 
 import java.util.Scanner;
 
