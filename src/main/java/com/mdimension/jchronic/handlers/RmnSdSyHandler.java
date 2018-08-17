@@ -14,8 +14,8 @@ import com.mdimension.jchronic.utils.Token;
 public class RmnSdSyHandler implements IHandler {
 
   public Span handle(List<Token> tokens, Options options) {
-    int month = tokens.get(0).getTag(RepeaterMonthName.class).getType().ordinal();
-    int day = tokens.get(1).getTag(ScalarDay.class).getType().intValue();
+    int day = tokens.get(0).getTag(ScalarDay.class).getType().intValue();
+    int month = tokens.get(1).getTag(RepeaterMonthName.class).getType().ordinal();
     int year = tokens.get(2).getTag(ScalarYear.class).getType().intValue();
 
     Span span;
